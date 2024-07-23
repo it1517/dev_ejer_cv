@@ -1,0 +1,162 @@
+
+
+        *, body, html{
+            margin:0; 
+            font-family: "Raleway", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #1c191a;
+        }
+
+        main{
+            min-height:100vh;
+        }
+
+        .flex{
+            display: flex;
+        }
+
+        aside{
+            width:20%;
+            background: #fcecec;
+            padding: 4% 2%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        section.ppal{
+            width: 80%;
+            padding: 4% 5%;
+            box-sizing: border-box;
+        }
+
+        .ppal section{
+            width: 100%;
+            margin:2% auto
+        }
+
+        .mascara{
+           border-radius:100%;
+           width: 170px;
+           height: 170px;
+           max-height: 200px;
+           overflow: hidden;
+           background: url(images/IMG_3329.jpg);
+           display: block;
+           background-size: cover;
+           margin: 0 auto;
+           border:5px solid #fff
+        }
+
+        
+        h1, h1 span{
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        h1 span{
+            font-weight: 400;
+            color: #cacaca;
+        }
+
+        h2{
+            color: #f3798d;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: 0.1px;
+            margin-bottom: 10px;
+        }
+
+        h3{
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin: 2% 0 0.5% 0;
+        }
+
+        hr{
+            border:1px dotted #dadada
+        }
+
+        .contenido p, .contenido h3{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+        h3 span{
+            opacity: 0.6;
+            letter-spacing: -0.3px;
+            font-style: italic;
+        }
+
+        h3 span::before{
+            content: '\22C5';
+            color: #f3798d;
+            display: inline-block;
+            margin: 0 0.5%;
+            font-size: 3rem;
+            line-height: 10px;
+            vertical-align: text-top;
+        }
+
+        p{
+            color: #515151;
+            font-size: 14px;
+        }
+
+        .uppercase{
+            text-transform: uppercase;
+        }
+
+        .habilidades{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15% 0;
+            text-align: left;
+        }
+
+        .habilidades p{
+            border:1px solid #f3798d;
+            border-radius:10px;
+            padding: 8px 7px;
+            margin: 3% 1%;
+            box-shadow: 2px 2px 1px #fff;
+        }
+
+        a{
+            text-decoration: none;
+            border-bottom:1px solid #f3798d;
+            color:#515151;
+            font-size: 15px;
+        }
+
+        li{
+            margin:1.5% 0;
+        }
+
+        .nota{
+            opacity: 1;
+            text-align: center;
+            font-size: 14px;
+            margin:8% auto;
+            display: block;
+            color: #913746;
+            font-style: italic;
+        }
+
+        .logo{
+            position: absolute;
+            background: #fff;
+            border-radius: 100%;
+            border:4px solid #fff;
+            margin:-35px 0px 0 10px;
+        }
+
+        .dos_cols{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .dos_cols p,  .dos_cols a{
+            display: inline-block;
+        }
